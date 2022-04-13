@@ -9,4 +9,14 @@
  * 8. useCreateUserWithEmailPassword from react-firebase-hooks
  * 9.if user is created then redirect to the expected field
  * 10.useSignInWithEmailAndPassword(auth) for sign in
+ * 11.create require auth component ==> check user exists also tract user location
+ * 12. in route wrap protected Component by using Require Auth Component
 */ 
+
+/**
+ * Firebase hosting steps
+ * 1.npm install -g firebase-tools
+ * 2.firebase login
+ * 3.firebase init
+ * 4.firebase deploy
+*/
