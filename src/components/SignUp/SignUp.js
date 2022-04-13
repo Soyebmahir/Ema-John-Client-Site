@@ -11,7 +11,7 @@ const SignUp = () => {
 
     const [ createUserWithEmailAndPassword,user]=useCreateUserWithEmailAndPassword(auth);
     if(user){
-        navigate('/shop')
+        navigate('/login')
     }
 
     const hanndleEmailBlur =event=>{
